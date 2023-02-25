@@ -1,7 +1,15 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
+    <>
     <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+    <div className="">
+      Thisi is a test.
+    </div>
+    <Link href={"/account"}>Go To Account Page</Link>
+    </>
   )
 }
